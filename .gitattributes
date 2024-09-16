@@ -1,4 +1,2 @@
-*.sh text eol=lf
-*.py text eol=lf
 *.bat text eol=crlf
-* text eol=lf
+-text
