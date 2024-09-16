@@ -1,0 +1,19 @@
+-- Informaal's Macro v0.2.4 - Donator --
+Start Time: [18h.50m.09s]
+-- Informaal's Macro v0.2.4 - Donator --
+
+Starting 00:41
+Looking for step 1 00:41
+Looking for step 4 00:52
+Looking for step 6 00:53
+Looking for step 7 00:53
+Starting Raid 00:54
+Zooming Out 01:11
+Attempting to set up Unit 1 01:15
+Unit 1 Image Path set to Wave1.png. Starting search 01:15
+Image Path of Unit 1 successfully located 01:20
+Moving Mouse to X: 697 Y: 48 01:20
+Locating Confirmation of Unit Placement. Attempting until confirmed 01:21
+Returned Setup Unit 03:15
+Moving to Unit 1 for Upgrading 03:15
+Upgrading 03:15
