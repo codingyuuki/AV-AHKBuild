@@ -1,0 +1,2 @@
+TotalGems=0
+TotalIgros=0
