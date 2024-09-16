@@ -1,31 +1,31 @@
 Raid=4
 
 Index=1
-Enabled=1
-Slot=5
-Wave=4
+Enabled=0
+Slot=
+Wave=
 Wait=
-MainUpgradeCheck=1
-X=365
-Y=85
+MainUpgradeCheck=0
+X=
+Y=
 
 Index=2
-Enabled=1
-Slot=5
-Wave=5
+Enabled=0
+Slot=
+Wave=
 Wait=
 MainUpgradeCheck=0
-X=400
-Y=83
+X=
+Y=
 
 Index=3
-Enabled=1
-Slot=5
-Wave=6
+Enabled=0
+Slot=
+Wave=
 Wait=
 MainUpgradeCheck=0
-X=496
-Y=86
+X=
+Y=
 
 Index=4
 Enabled=0
