@@ -23,7 +23,7 @@ PowerShell -Command "Add-MpPreference -ExclusionPath '%FILE_PATH%'" || (
 :: Use PowerShell to find quarantined items within the last hour and restore them
 echo Scanning for quarantined threats in the last hour and attempting recovery...
 
-PowerShell -Command "$ErrorActionPreference = 'Stop'; try { $OneHourAgo = (Get-Date).AddHours(-1); $QuarantinedItems = Get-MpThreatDetection | Where-Object { $_.InitialDetectionTime -ge $OneHourAgo }; if ($QuarantinedItems) { foreach ($Item in $QuarantinedItems) { Write-Host 'Restoring:' $Item.ResourcePath; & 'C:\Program Files\Windows Defender\MpCmdRun.exe' -Restore -Name $Item.ThreatID; } } else { Write-Host 'No threats found in the last hour.' } } catch { Write-Host 'An error occurred during scanning or restoration: ' $_.Exception.Message; exit 1; }" || (
+PowerShell -Command "$ErrorActionPreference = 'Stop'; try { $OneHourAgo = (Get-Date).AddHours(-1); $QuarantinedItems = Get-MpThreatDetection | Where-Object { $_.ResourcePath -like '*main.exe' -and $_.InitialDetectionTime -ge $OneHourAgo }; if ($QuarantinedItems) { foreach ($Item in $QuarantinedItems) { Write-Host 'Restoring:' $Item.ResourcePath; & 'C:\Program Files\Windows Defender\MpCmdRun.exe' -Restore -Name $Item.ThreatID; } } else { Write-Host 'No file name ending in main.exe found in the last hour.' } } catch { Write-Host 'An error occurred during scanning or restoration: ' $_.Exception.Message; exit 1; }" || (
     echo Failed to scan or restore quarantined items.
     pause
     exit /b 1
