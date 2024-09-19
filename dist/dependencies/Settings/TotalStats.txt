@@ -1,4 +1,2 @@
 TotalGems=0
-TotalIgros=0
-TotalWins=0
-TotalFails=0
+totalRuns=0
