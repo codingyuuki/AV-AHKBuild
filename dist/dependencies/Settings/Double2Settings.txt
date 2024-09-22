@@ -6,6 +6,7 @@ Slot=
 Wave=
 Wait=
 MainUpgradeCheck=0
+MainUpgradeCheck2=1
 X=
 Y=
 
@@ -15,6 +16,7 @@ Slot=
 Wave=
 Wait=
 MainUpgradeCheck=0
+MainUpgradeCheck2=1
 X=
 Y=
 
@@ -24,6 +26,7 @@ Slot=
 Wave=
 Wait=
 MainUpgradeCheck=0
+MainUpgradeCheck2=1
 X=
 Y=
 
@@ -33,6 +36,7 @@ Slot=
 Wave=
 Wait=
 MainUpgradeCheck=0
+MainUpgradeCheck2=1
 X=
 Y=
 
@@ -42,6 +46,7 @@ Slot=
 Wave=
 Wait=
 MainUpgradeCheck=0
+MainUpgradeCheck2=1
 X=
 Y=
 
@@ -51,5 +56,6 @@ Slot=
 Wave=
 Wait=
 MainUpgradeCheck=0
+MainUpgradeCheck2=1
 X=
 Y=
